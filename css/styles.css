@@ -1,5 +1,5 @@
 body {
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .gallery {
@@ -19,7 +19,7 @@ body {
   width: 360px;
   height: 200px;
   flex-shrink: 0;
-  transition: transform 0.05ms;
+  transition: transform 300ms;
 }
 
 .gallery-image:hover {
