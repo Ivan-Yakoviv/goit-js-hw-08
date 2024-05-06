@@ -9,7 +9,8 @@ body {
   padding: 24px 156px;
   justify-content: center;
   align-items: flex-start;
-  gap: 24px;
+  row-gap: 24px;
+  column-gap: 24px;
   background: #fff;
   list-style-type: none;
   flex-wrap: wrap;
