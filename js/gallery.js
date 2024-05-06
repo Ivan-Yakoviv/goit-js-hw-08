@@ -69,16 +69,18 @@ const gallery = document.querySelector(".gallery");
 function createMarkup(array) {
     return array
         .map((image) =>
-            <li class="gallery-item">
-                <a class="gallery-link" href="large-image.jpg">
+            `<li class="gallery-item">
+                <a class="gallery-link" href="${image.original}">
                     <img
                         class="gallery-image"
-                        src="small-image.jpg"
-                        data-source="large-image.jpg"
-                        alt="Image description"
+                        src="${image.preview}"
+                        data-source="${image.original}"
+                        alt="${image.description}"
                     />
                 </a>
-            </li>
+            </li>`
         )
         .join("");
 }
+
+gallery.insertAdjacentHTML("beforeend", createMarkup(images));
