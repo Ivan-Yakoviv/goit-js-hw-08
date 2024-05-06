@@ -1,6 +1,8 @@
 body {
+  display: flex;
   max-width: 1440px;
   background: #fff;
+  margin: 0;
 }
 
 ul {
