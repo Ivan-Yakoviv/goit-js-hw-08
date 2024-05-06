@@ -16,7 +16,7 @@ img {
 
 .gallery {
   display: flex;
-  width: 1128px;
+  max-width: 1128px;
   margin: 0;
   padding: 24px 156px;
   justify-content: center;
